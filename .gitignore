@@ -1,3 +1,6 @@
 /.vscode/
 .vscode/
 *.exe
+*.py
+*.lua
+temp.cpp
