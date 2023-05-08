@@ -11,7 +11,7 @@ int main()
     Sales_item book;
     while(cin >> book)
     {
-
+        
     };
 
     return 0;
