@@ -8,7 +8,11 @@
 using namespace std;
 int main()
 {
-
-
+    vector<int> ivec(10,0);
+    ivec[0] = 10;
+    vector<int>::iterator it = ivec.begin();
+    cout << *it << endl;
+    int temp;
+    
     return 0;
 }

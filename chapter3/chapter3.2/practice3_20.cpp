@@ -9,6 +9,10 @@ using namespace std;
 int main()
 {
 
+    string s;
+    cin >> s; // asdfsadf ssdf
+    cout << s << endl;//asdfsadf
 
+    
     return 0;
 }
