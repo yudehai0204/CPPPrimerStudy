@@ -20,5 +20,10 @@ int main()
     }
     cout << endl;
     cout << ib[5] << endl;
+
+    int x[10]; int *p = x;
+    cout << sizeof(x)/sizeof(*x) << endl; // 10
+    cout << sizeof(p)/sizeof(*p) << endl;//2
+    cout << sizeof(p) << "  " << sizeof(*p) << endl;
     return 0;
 }
